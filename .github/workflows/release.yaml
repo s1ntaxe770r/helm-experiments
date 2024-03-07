@@ -8,6 +8,8 @@ on:
 
 jobs:
   helm-release:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     name: Release Helm Chart
     steps:
