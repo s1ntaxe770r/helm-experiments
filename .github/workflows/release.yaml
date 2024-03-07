@@ -32,5 +32,4 @@ jobs:
           CR_SKIP_EXISTING: true
         with:
           charts_dir: charts
-          pages_branch: gh_pages 
 
